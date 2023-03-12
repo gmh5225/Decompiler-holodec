@@ -56,7 +56,6 @@
     <ClCompile Include="SSA.cpp" />
     <ClCompile Include="SSAAddressToBlockTransformer.cpp" />
     <ClCompile Include="SSAAppendSimplifier.cpp" />
-    <ClCompile Include="SSAApplyRegRef.cpp" />
     <ClCompile Include="SSACalleeCallerRegs.cpp" />
     <ClCompile Include="SSACallingConvApplier.cpp" />
     <ClCompile Include="SSADCETransformer.cpp" />
@@ -106,7 +105,6 @@
     <ClInclude Include="SSA.h" />
     <ClInclude Include="SSAAddressToBlockTransformer.h" />
     <ClInclude Include="SSAAppendSimplifier.h" />
-    <ClInclude Include="SSAApplyRegRef.h" />
     <ClInclude Include="SSACalleeCallerRegs.h" />
     <ClInclude Include="SSACallingConvApplier.h" />
     <ClInclude Include="SSADCETransformer.h" />
@@ -123,32 +121,32 @@
     <ProjectGuid>{AF3715C2-2D0B-4503-846F-07EFDECC51C4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>main</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>

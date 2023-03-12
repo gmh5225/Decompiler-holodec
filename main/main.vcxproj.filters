@@ -159,9 +159,6 @@
     <ClCompile Include="arch\AvrFunctionAnalyzer.cpp">
       <Filter>Quelldateien\arch</Filter>
     </ClCompile>
-    <ClCompile Include="SSAApplyRegRef.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
     <ClCompile Include="SSACalleeCallerRegs.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
@@ -301,9 +298,6 @@
     </ClInclude>
     <ClInclude Include="arch\AvrFunctionAnalyzer.h">
       <Filter>Headerdateien\arch</Filter>
-    </ClInclude>
-    <ClInclude Include="SSAApplyRegRef.h">
-      <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="SSA.h">
       <Filter>Headerdateien</Filter>
